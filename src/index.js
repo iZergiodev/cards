@@ -3,10 +3,12 @@ const cardGame = () => {
   const colourList = ["red", "blue", "green", "yellow"];
   const deck = [];
 
-  const card1 = document.querySelector("#card1");
-  const card2 = document.querySelector("#card2");
-  const card3 = document.querySelector("#card3");
-  const card4 = document.querySelector("#card4");
+  const querySeletor = document.querySelector;
+
+  const card1 = querySeletor("#card1");
+  const card2 = querySeletor("#card2");
+  const card3 = querySeletor("#card3");
+  const card4 = querySeletor("#card4");
 
   const createDeck = () => {
     for (let i = 0; i < valueList.length; i++) {
